@@ -21,6 +21,15 @@ const TrailersSection = () => {
               width="100%"
               height="540px"
               className="react-player"
+              config={{
+                youtube: {
+                  playerVars: {
+                    origin: window.location.origin,
+                    showinfo: 1,
+                    autoplay: 0
+                  }
+                }
+              }}
             />
           </div>
         </div>
