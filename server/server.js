@@ -1,3 +1,5 @@
+//console.log("Publishable Key:", process.env.CLERK_PUBLISHABLE_KEY);
+
 import express from 'express';
 import cors from 'cors';
 import 'dotenv/config';

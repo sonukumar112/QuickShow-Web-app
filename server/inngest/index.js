@@ -1,5 +1,6 @@
-import { User } from "@clerk/express";
+//import { User } from "@clerk/express";
 import { Inngest } from "inngest";
+import User from '../models/User.js';
 
 // Create a client to send and receive events
 export const inngest = new Inngest({ id: "movie-ticket-booking" });
@@ -21,7 +22,7 @@ const syncUserCreation = inngest.createFunction(
     await User.create(userData);
   }
 )
-
+ 
 // Inngest Function to delete user from database
 const syncUserDeletion = inngest.createFunction(
   { id: 'delete-user-with-clerk' },
