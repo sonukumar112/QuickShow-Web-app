@@ -10,6 +10,8 @@ import { dateFormat } from '../../lib/dateFormat';
 
 const Dashboard = () => {
 
+   const {axios, getToken, user, image_base_url} = useAppContext()
+
   const currency = import.meta.env.VITE_CURRENCY
 
   const [dashboardData, setDashboardData] = useState({
