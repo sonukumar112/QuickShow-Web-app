@@ -16,7 +16,7 @@ const TrailersSection = () => {
         <div className="w-full flex justify-center">
           <div className="rounded-xl overflow-hidden shadow-lg max-w-[960px] w-full">
             <ReactPlayer
-              url={currentTrailer.videoUrl}
+              src={currentTrailer.videoUrl}
               controls={true}
               width="100%"
               height="540px"
