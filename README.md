@@ -95,7 +95,7 @@ Inngest account (for email jobs)
 bash
 Copy
 Edit
-git clone https://github.com/<your-username>/movie-ticket-booking.git
+git clone https://github.com/sonukumar112/QuickShow-Web-app
 cd movie-ticket-booking
 2. Setup Environment Variables
 Create .env files for both client and server:
@@ -153,7 +153,6 @@ Database: Host on MongoDB Atlas
 🧑‍💻 Author
 Sonu Kumar Sah
 Frontend & Full Stack Developer
-
 
 📜 License
 This project is licensed under the MIT License – feel free to use and modify as needed.
