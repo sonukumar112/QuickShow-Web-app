@@ -95,9 +95,9 @@ Inngest account (for email jobs)
 bash
 Copy
 Edit
-git clone https://github.com/sonukumar112/QuickShow-Web-app
+git clone https://github.com/sonukumar112/QuickShow-Web-app   
 cd movie-ticket-booking
-2. Setup Environment Variables
+3. Setup Environment Variables
 Create .env files for both client and server:
 
 Server (server/.env)
