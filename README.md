@@ -1,7 +1,7 @@
 🎬 Full Stack Movie Ticket Booking Website (MERN Stack)
 A full-featured Movie Ticket Booking Platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 This project includes user authentication with Clerk, background job handling with Inngest, seat reservation logic, and a powerful admin dashboard for movie and booking management.
-
+ 
 ✨ Features
 User Features
 Signup & Login: Multiple authentication options using Clerk (Email, Social logins, Multi-session support).
